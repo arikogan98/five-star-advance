@@ -101,16 +101,20 @@
 <section class="contact-section" id="contact">
   <h2>Contact Us</h2>
   <p>Have questions? Reach out to us today.</p>
-  <form action="https://formsubmit.co/ari@fivestaradvancellc.com" method="POST" class="contact-form">
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_confirmation" value="false">
+<form action="https://formsubmit.co/Ari@fivestaradvancellc.com" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <input type="tel" name="phone" placeholder="Your Phone Number" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
 
-<input type="hidden" name="_captcha" value="false">
-<input type="hidden" name="_template" value="table">
-<input type="hidden" name="_autoresponse" value="Thank you for reaching out. Our team will contact you shortly.">
+  <!-- Hidden fields -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_autoresponse" value="Thank you for reaching out. Our team will contact you shortly.">
 
   <button type="submit">Send Message</button>
 </form>
+
 
 </section>
 
